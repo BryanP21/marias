@@ -1,0 +1,40 @@
+.acciones{
+    display: flex;
+justify-content: space-around;
+}
+.addpedidos a{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    padding-top: 1em;
+}
+.click-pedidos,.bi.bi-plus-circle-fill,.bi.bi-dash-circle-fill{
+    color: var(--primary-color);
+    /* border: solid var(--auxiliar-color-2); */
+    border-radius: 1em;
+    font-size: 1.6em;
+}
+.bi.bi-pencil{
+    color:  var(--auxiliar-color-2);
+    font-size: 1.6em;
+}
+/*  .bi.bi-pencil::before{
+    background: var(--primary-color);
+    border-radius: 1em;
+} */
+.bi-plus-circle-fill::before{
+    background: white;
+}
+.bi.bi-plus-circle-fill:hover,.bi.bi-dash-circle-fill:hover,.bi.bi-pencil:hover {
+    cursor: pointer;
+}
+.pdt1{
+    padding-top: 1em;
+}
+.text-center,th{
+    text-align: center ;
+}
+.table-responsive {
+    min-height: 300px;
+}
